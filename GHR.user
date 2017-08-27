@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document signature="Hero Lab Data">
+  <thing id="lJZCFLAN" name="Flan" compset="Language" uniqueness="useronce">
+    <usesource source="GHR"/>
+    <tag group="ProductId" tag="GHR" name="Greyhawk Reborn"/>
+    <tag group="LangPreval" tag="Standard"/>
+    </thing>
+  <thing id="lJZCAB" name="Ancient Baklunish" compset="Language" uniqueness="useronce">
+    <usesource source="GHR"/>
+    <tag group="LangPreval" tag="Standard"/>
+    <tag group="ProductId" tag="GHR"/>
+    </thing>
+  <thing id="lJZCKDSH" name="Keolandish" compset="Language" uniqueness="useronce">
+    <usesource source="GHR"/>
+    <tag group="LangPreval" tag="Standard"/>
+    <tag group="ProductId" tag="GHR"/>
+    </thing>
+  <thing id="lJZCOO" name="Old Oeridian" compset="Language" uniqueness="useronce">
+    <usesource source="GHR"/>
+    <tag group="ProductId" tag="GHR"/>
+    <tag group="LangPreval" tag="Standard"/>
+    </thing>
+  <thing id="lJZCSSE" name="Suloise" compset="Language" uniqueness="useronce">
+    <usesource source="GHR" parent="pComPacks" name="Greyhawk Reborn"/>
+    <tag group="ProductId" tag="GHR"/>
+    <tag group="LangPreval" tag="Standard"/>
+    </thing>
+  <thing id="srJZCBKSH" name="Baklunish" description="Baklunish folk have golden-hued skin and hair that ranges from blue- black to dark brown. Their eyes are often green or gray-green." compset="SubRace" uniqueness="unique">
+    <fieldval field="rHeightMin" value="44"/>
+    <fieldval field="rWeightMin" value="115"/>
+    <fieldval field="rSTR" value="1"/>
+    <usesource source="GHR"/>
+    <tag group="WeightSize" tag="6" name="d6" abbrev="d6"/>
+    <tag group="ClVaryName" tag="Replace" name="Replace" abbrev="Replace"/>
+    <tag group="HeightDice" tag="2" name="2" abbrev="2"/>
+    <tag group="SubRace" tag="rHuman"/>
+    <tag group="HeightSize" tag="4" name="d4" abbrev="d4"/>
+    <tag group="RaceType" tag="Normal"/>
+    <tag group="WeightDice" tag="2" name="2" abbrev="2"/>
+    </thing>
+  <hidden id="alLawEvil"/>
+  <hidden id="alChaoEvil"/>
+  <hidden id="rTiefling"/>
+  <hidden id="rDragonbor"/>
+  <hidden id="alNeutEvil"/>
+  </document>
